@@ -1,6 +1,6 @@
 <pre>
 <?php
-$beers = 99;
+$store = $beers = 99;
 
 echo "Lyrics of the song {$beers} Bottles of Beer".PHP_EOL.PHP_EOL;
 
@@ -14,7 +14,7 @@ do {
 
 echo <<<BEERS
 No more bottles of beer on the wall, no more bottles of beer.
-Go to the store and buy some more, 99 bottles of beer on the wall.
+Go to the store and buy some more, {$store} bottles of beer on the wall.
 BEERS;
 
 ?>
